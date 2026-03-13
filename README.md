@@ -47,9 +47,9 @@ El administrador cuenta con una interfaz web donde puede:
 
 ## 📸 Capturas de Pantalla
 
-| Escaneo de QR | Datos y Falla | Firma y GPS | Panel Admin |
+| Escaneo de QR | Datos Falla y Coordenadas | Reporte | Panel Admin |
 | :---: | :---: | :---: | :---: |
-| ![QR](screenshots/qr_scan.png) | ![Datos](screenshots/datos.png) | ![Firma](screenshots/firma.png) | ![Admin](screenshots/admin.png) |
+| ![QR](screenshots/qr_scan.jpeg) | ![Datos](screenshots/datos.jpeg) | ![Reporte](screenshots/reporte.jpeg) | ![Admin](screenshots/admin.png) |
 ---
 
 > **Nota:** Este proyecto fue desarrollado como solución tecnológica para la gestión eficiente de mantenimientos vehiculares.
