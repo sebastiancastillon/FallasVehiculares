@@ -49,8 +49,7 @@ El administrador cuenta con una interfaz web donde puede:
 
 | Escaneo de QR | Datos y Falla | Firma y GPS | Panel Admin |
 | :---: | :---: | :---: | :---: |
-| ![QR](https://via.placeholder.com/150) | ![Datos](https://via.placeholder.com/150) | ![Firma](https://via.placeholder.com/150) | ![Admin](https://via.placeholder.com/150) |
-
+| ![QR](screenshots/qr_scan.png) | ![Datos](screenshots/datos.png) | ![Firma](screenshots/firma.png) | ![Admin](screenshots/admin.png) |
 ---
 
 > **Nota:** Este proyecto fue desarrollado como solución tecnológica para la gestión eficiente de mantenimientos vehiculares.
