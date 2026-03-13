@@ -1,35 +1,56 @@
 # 🛠️ Sistema de Reporte de Fallas Vehiculares
-Aplicación móvil diseñada para la gestión técnica de flotas y talleres. Permite digitalizar el levantamiento de reportes de fallas mediante el escaneo de computadoras vehiculares, geolocalización automática y firma digital.
 
-Los reportes son enviados en tiempo real a un Panel de Administración alojado en Vercel, donde se visualizan detalladamente sobre un mapa interactivo.
+Aplicación móvil orientada a la gestión técnica de flotas y talleres. Permite la digitalización inmediata de reportes de fallas mediante escaneo de hardware vehicular, geolocalización por GPS y firma digital del responsable.
 
-🚀 Características Principales
-🔍 Escaneo QR de Diagnóstico: Obtención inmediata de datos del vehículo (Placa, Modelo, Año) al escanear el código de la computadora del carro.
+Los reportes son centralizados en un **Panel de Administración** alojado en **Vercel**, donde se visualizan los incidentes en tiempo real sobre un mapa interactivo.
 
-📝 Registro Técnico: Espacio dedicado para la descripción detallada de la falla detectada.
+---
 
-📍 Geolocalización Automática: Captura mediante GPS de la ubicación exacta donde se genera el reporte.
+## 📱 Características de la App
 
-✍️ Firma Digital: Validación del reporte mediante la firma del conductor responsable directamente en la pantalla.
+* **🔍 Escaneo QR de Diagnóstico:** Al escanear el código de la computadora del vehículo, la app recupera automáticamente:
+    * Placa
+    * Modelo
+    * Año del vehículo
+* **📝 Registro Técnico:** Formulario dinámico para la descripción detallada de la falla detectada.
+* **📍 Geolocalización Automática:** Captura mediante GPS de la posición exacta (latitud/longitud) donde se genera el reporte.
+* **✍️ Firma Digital:** Panel táctil para la firma autógrafa del conductor o técnico responsable.
+* **📤 Envío en Tiempo Real:** Sincronización inmediata con el servidor para la gestión administrativa.
 
-📊 Panel Administrativo (Vercel): Centralización de datos para el administrador con visualización de mapas y estatus de los reportes.
+---
 
-🧠 Flujo de Trabajo
-El proceso de reporte consta de 4 pasos clave:
+## 🧠 Flujo de Trabajo
 
-Sincronización: El usuario escanea el código QR del vehículo. La app procesa la información y autorrellena los campos de identificación.
+1.  **Sincronización:** El usuario escanea el código QR del vehículo.
+2.  **Diagnóstico:** Se ingresa la descripción técnica de la falla.
+3.  **Validación:** El sistema obtiene la ubicación GPS y solicita la firma.
+4.  **Finalización:** Se genera el reporte y se envía al administrador.
 
-Diagnóstico: El técnico o conductor ingresa la descripción de la falla mecánica o eléctrica.
+---
 
-Validación: El sistema obtiene las coordenadas GPS actuales y solicita la firma autógrafa del responsable.
+## 🖥️ Panel Administrativo (Vercel)
 
-Envío: El reporte se empaqueta y se envía a la base de datos vinculada al Dashboard.
+El administrador cuenta con una interfaz web donde puede:
+* Ver el listado histórico de reportes.
+* Visualizar un **Mapa de Incidentes** para identificar zonas con mayor frecuencia de fallas.
+* Consultar los detalles técnicos, fotos de firmas y datos del vehículo.
 
-🛠️ Tecnologías Utilizadas
-Mobile App: Flutter / Dart (o la tecnología que estés usando).
+---
 
-Geolocalización: Google Maps API / Geolocator.
+## 🛠️ Stack Tecnológico
 
-Backend/Hosting: Vercel (Panel Administrativo).
+* **Mobile:** Flutter / Dart (o tu tecnología actual).
+* **Web Dashboard:** React / Next.js (Desplegado en Vercel).
+* **Servicios:** Google Maps API (Geolocalización).
 
-Base de Datos: [Insertar base de datos, ej: Firebase / Supabase].
+---
+
+## 📸 Capturas de Pantalla
+
+| Escaneo de QR | Datos y Falla | Firma y GPS | Panel Admin |
+| :---: | :---: | :---: | :---: |
+| ![QR](https://via.placeholder.com/150) | ![Datos](https://via.placeholder.com/150) | ![Firma](https://via.placeholder.com/150) | ![Admin](https://via.placeholder.com/150) |
+
+---
+
+> **Nota:** Este proyecto fue desarrollado como solución tecnológica para la gestión eficiente de mantenimientos vehiculares.
