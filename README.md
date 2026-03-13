@@ -39,7 +39,7 @@ El administrador cuenta con una interfaz web donde puede:
 
 ## 🛠️ Stack Tecnológico
 
-* **Mobile:** Flutter / Dart (o tu tecnología actual).
+* **Mobile:** Flutter / Dart.
 * **Web Dashboard:** React / Next.js (Desplegado en Vercel).
 * **Servicios:** Google Maps API (Geolocalización).
 
@@ -47,7 +47,7 @@ El administrador cuenta con una interfaz web donde puede:
 
 ## 📸 Capturas de Pantalla
 
-| Escaneo de QR | Datos Falla y Coordenadas | Reporte | Panel Admin |
+| Escaneo de QR | Datos, Falla y Coordenadas | Reporte | Panel Admin |
 | :---: | :---: | :---: | :---: |
 | ![QR](screenshots/qr_scan.jpeg) | ![Datos](screenshots/datos.jpeg) | ![Reporte](screenshots/reporte.jpeg) | ![Admin](screenshots/admin.jpeg) |
 ---
